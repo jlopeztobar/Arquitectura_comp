@@ -73,8 +73,8 @@ void setup() {
 }
 
 void loop() {
-  tasktemp.Update(taskmostrar);
-  taskmostrar.Update(tasktemp);
+  tasktemp.Update(tasktemp);
+  taskmostrar.Update(taskmostrar);
 }
 
 void mostrar_led() {
